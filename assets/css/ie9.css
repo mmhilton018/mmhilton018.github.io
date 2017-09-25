@@ -1,123 +1,33 @@
 /*
-	Future Imperfect by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* List */
+/* Loader */
 
-	ul.posts article:after {
-		clear: both;
-		content: '';
-		display: block;
+	body.landing:before, body.landing:after {
+		display: none !important;
 	}
 
-	ul.posts article .image {
-		display: table-cell;
-		vertical-align: top;
+/* Icon */
+
+	.icon.alt {
+		color: inherit !important;
 	}
 
-	ul.posts article header {
-		display: table-cell;
-		padding-right: 1em;
-		vertical-align: top;
+	.icon.major.alt:before {
+		color: #ffffff !important;
 	}
 
-/* Author */
+/* Banner */
 
-	.author .name {
-		display: inline-block;
-		vertical-align: middle;
+	#banner:after {
+		background-color: rgba(23, 24, 32, 0.95);
 	}
 
-	.author img {
-		display: inline-block;
-		vertical-align: middle;
-	}
+/* Footer */
 
-/* Post */
-
-	.post:after {
-		clear: both;
-		content: '';
-		display: block;
-	}
-
-	.post > header:after {
-		clear: both;
-		content: '';
-		display: block;
-	}
-
-	.post > header .title {
-		display: table-cell;
-		vertical-align: top;
-		width: 65%;
-	}
-
-	.post > header .meta {
-		display: table-cell;
-		vertical-align: top;
-		width: 30%;
-	}
-
-	.post > footer:after {
-		clear: both;
-		content: '';
-		display: block;
-	}
-
-	.post > footer .actions {
-		display: inline-block;
-	}
-
-	.post > footer .stats {
-		display: inline-block;
-		margin-left: 2em;
-	}
-
-/* Mini Post */
-
-	.mini-post .image {
-		display: block;
-	}
-
-/* Header */
-
-	#header:after {
-		clear: both;
-		content: '';
-		display: block;
-	}
-
-	#header h1 {
-		float: left;
-	}
-
-	#header .links {
-		float: left;
-	}
-
-	#header .main {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-/* Wrapper */
-
-/* Sidebar */
-
-	#sidebar {
-		display: table-cell;
-		margin-right: 0;
-		padding-right: 3em;
-		vertical-align: top;
-	}
-
-/* Main */
-
-	#main {
-		display: table-cell;
-		vertical-align: top;
+	#footer .icons .icon.alt:before {
+		color: #ffffff !important;
 	}
